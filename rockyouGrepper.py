@@ -8,7 +8,7 @@ def main():
     if len(sys.argv) <= 2:
         sys.stdout.write("\t-::: rockyouGrepper.py :::-\n")
         sys.stdout.write("# Creates a smaller wordlist by grepping a custom wordlist against rockyou or large wordlist.\n")
-        sys.stdout.write("\nUsage: ./rockyouGrepper.py [/path/to/rockyou.txt] [/path/to/user_wordlist]\n " % (sys.argv[0]))
+        sys.stdout.write("\nUsage: %s [/path/to/rockyou.txt] [/path/to/user_wordlist]\n " % (sys.argv[0]))
         sys.stdout.flush()
         exit(0)
 
